@@ -1,0 +1,107 @@
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(193, 226, 254);
+  z-index: 100;
+  height: 80px;
+}
+
+.my-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.home-page-button-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.home-page-button {
+  font-size: 20px;
+  border-radius: 50px;
+  color: black;
+  background-color:aquamarine;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.home-page-button:hover {
+  opacity: 0.8;
+}
+
+.home-page-button:active {
+  opacity: 0.5;
+}
+
+
+
+
+.grid{
+  display: grid;
+  grid-template-rows: 320px 280px 240px 250px 300px 360px;
+  grid-template-columns: 800px;
+  row-gap: 100px;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.grid1{
+  background-color: antiquewhite;
+}
+
+.grid2{
+  background-color: antiquewhite;
+}
+
+.grid3{
+  background-color: antiquewhite;
+}
+
+.grid4{
+  background-color: antiquewhite;
+}
+
+.grid5{
+  background-color: antiquewhite;
+}
+
+.grid6{
+  background-color: antiquewhite;
+}
+
+
+.grid-title {
+  font-size: 40px;
+  background-color: aquamarine;
+  border-style: solid;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text {
+  font-size: 18px;
+  padding-left: 20px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+

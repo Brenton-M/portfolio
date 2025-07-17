@@ -1,0 +1,143 @@
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0px;
+  background-color:rgb(193, 226, 254);
+  height: 80px;
+  z-index: 100;
+}
+
+.my-experiences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.home-page-button-container{
+  display: flex;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.home-page-button {
+  font-size: 20px;
+  border-radius: 50px;
+  color: black;
+  background-color:aquamarine;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: 0.15s;
+  cursor: pointer;
+
+}
+
+.home-page-button:hover {
+  opacity: 0.8;
+}
+
+.home-page-button:active {
+  opacity: 0.5;
+}
+
+
+
+
+/* Grid*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 500px 550px 520px 590px;
+  row-gap: 100px;
+  column-gap: 200px;
+  margin-top: 130px;
+  margin: 100px;
+}
+
+.grid1 {
+  background-color: antiquewhite;
+}
+
+.grid2 {
+  background-color: antiquewhite;
+}
+
+.grid3 {
+  background-color: antiquewhite;
+}
+
+.grid4 {
+  background-color: antiquewhite;
+}
+
+.grid5 {
+  background-color: antiquewhite;
+}
+
+.grid6 {
+  background-color: antiquewhite;
+}
+
+.grid7 {
+  background-color: antiquewhite;
+}
+
+
+/* Grid Customizations */
+
+body, html {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job {
+  color: inherit;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-decoration-line:underline ;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  text-decoration-thickness:2px ;
+}
+
+.job-container {
+  margin-left: 20px;
+  border: solid;
+  display: inline-block;
+  background-color: aquamarine;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.date {
+  font-size: 25px;
+}
+
+.date-container {
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.description-container {
+  margin-left: 20px;
+  background-color: white;
+  width: 640px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
