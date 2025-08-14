@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-rows: 450px;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: repeat(3,400px);
   justify-content: center;
   column-gap: 100px;
   margin-top: 200px;
@@ -48,13 +48,22 @@
   margin-left: 15px;
   padding-bottom: 15px;
   padding-top: 15px;
-}
-
-.text {
   font-size: 20px;
   margin-top: 10px;
-  
+  font-size: 20px;
+  margin-bottom: 30px;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
 
 .header {
   position: fixed;
@@ -101,4 +110,18 @@
 
 .home-page-button:active {
   opacity: 0.5;
+}
+
+
+
+@media (max-width: 1750px) {
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  .box {
+    width: 400px;
+    margin: 0 auto;
+  }
 }
