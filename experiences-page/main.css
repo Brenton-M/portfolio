@@ -53,11 +53,10 @@
 .grid {
   display: grid;
   grid-template-columns: 700px 700px;
-  grid-template-rows: 500px 550px 520px 590px;
   row-gap: 100px;
   column-gap: 200px;
   margin-top: 130px;
-  margin: 100px;
+  margin-bottom: 100px;
 }
 
 .grid1 {
@@ -134,10 +133,24 @@ body, html {
 
 .description-container {
   margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   background-color: white;
   width: 640px;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
+  font-size: 19px;
+}
+
+
+
+
+/* Screen Adjusting */
+
+@media (max-width: 1750px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
