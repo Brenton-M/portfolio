@@ -49,12 +49,12 @@
 
 .grid{
   display: grid;
-  grid-template-rows: 320px 280px 240px 250px 300px 360px;
   grid-template-columns: 800px;
   row-gap: 100px;
   justify-content: center;
   margin-top: 150px;
   margin-bottom: 100px;
+
 }
 
 .grid1{
@@ -100,8 +100,14 @@
   background-color: white;
   margin-left: 20px;
   margin-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+  margin-left: -15px;
 }
 
